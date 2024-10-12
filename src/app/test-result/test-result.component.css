@@ -1,0 +1,78 @@
+/* Customizing the navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card customization */
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Badge styling */
+.badge-info {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Button customizations */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Table customizations */
+.table {
+  margin-top: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Making the page more responsive */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .badge-info {
+    font-size: 0.8rem;
+  }
+
+  .btn-sm {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Ensure the content takes up most of the screen height */
+}
+
+.card {
+  width: 80%;
+}
+
+.table {
+  margin-top: 20px;
+}

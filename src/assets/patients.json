@@ -1,0 +1,31 @@
+{
+  "patients": [
+    {
+      "ID": 1001,
+      "name": "John Doe",
+      "tests": [
+        {
+          "ID": 3001,
+          "testName": "Blood Pressure Test",
+          "idTestType": "2001"
+        },
+        {
+          "ID": 3002,
+          "testName": "Cholesterol Test",
+          "idTestType": "2002"
+        }
+      ]
+    },
+    {
+      "ID": 1002,
+      "name": "Jane Smith",
+      "tests": [
+        {
+          "ID": 3003,
+          "testName": "Blood Sugar Test",
+          "idTestType": "2003"
+        }
+      ]
+    }
+  ]
+}
